@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Give-me-files</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favi.png" type="image/png" sizes="16x16">
+
+</head>
+<body>
+  <h1><center>Give-me-files</center></h1>
+<!-- partial:index.partial.html -->
+<form method="POST">
+  <input class ="fil" id="fil" type="file" onchange="getfile()">
+  <p>Click here or Drag your files</p>
+  <button id="submit_link" type="submit">Upload</button>
+ 
+</form>
+<input class="link" id="link" value="URL loading....">
+<button id="copy">copy</button>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script> 
+<script src="/config.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
